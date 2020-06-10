@@ -21,7 +21,10 @@ ul {
     list-style: none;
 }
 
-.container {
+li {
+    text-decoration: none;
+}
+.contenu {
     width: 90%;
     max-width: 1100px;
     margin: auto;
@@ -36,7 +39,7 @@ ul {
     font-size: 1.2rem;
 }
 
-.menu .logo {
+.menu .imglogo {
     width: 130px;
     padding-top: 5px;    
 }
@@ -54,9 +57,9 @@ ul {
     padding-bottom: 2px;
 }
 
-.lien-menu a:hover{
+/* .lien-menu a:hover{
     border-bottom: 2px solid #262626;
-}
+} */
 
 ul.lien-menu{
     margin-left: auto;
@@ -85,7 +88,7 @@ nav{
 
 /* showcase */
 
-.showcase{
+.presentation{
     width: 100%;
     height: 400px;
     background: url('/img/unima_siege.jpg') 
@@ -94,31 +97,31 @@ nav{
     margin-bottom: 20px;          
 }
 
-.showcase .content h2 {
+.presentation .presentation-interieur h2 {
     padding-bottom: 15px;
     padding-top: 50px;
     font-size: 2rem;
 }
 
-.showcase .content p{
+.presentation .presentation-interieur p{
     padding-bottom: 50px;
     padding-top: 30px;
     width: 35%;
     line-height: 1.6;
 }
-.showcase .content .btn{
+.presentation .presentation-interieur .btn{
     border: 1px solid #008080;
     border-radius: 5px;
     padding: 10px;
     color: #008080;        
 }
 
-.showcase .content .btn:hover i{
+.presentation .presentation-interieur .btn:hover i{
     margin-left: 10px;
 }
 
 .intro{
-    margin-top: 10px;
+    padding-top: 45px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -142,7 +145,7 @@ nav{
     padding-bottom: 10px;
     width: 65%;
 }
-.card{
+.carte{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -152,11 +155,11 @@ nav{
     text-align: left;    
 }
 
-.card h3{
+.carte h3{
     padding-bottom: 10px;    
 }
 
-.card img{
+.carte img{
     width: 100%;
     height: 190px;
     margin-bottom: 20px;
@@ -164,7 +167,7 @@ nav{
 }
 
 
-.card a{
+.carte a{
     display: inline-block;    
     padding-top: 10px;
     color: #0067b8;
@@ -172,7 +175,7 @@ nav{
     font-weight: bold; 
 }
 
-.card a:hover i{
+.carte a:hover i{
     margin-left: 10px;
 }
 
@@ -195,29 +198,29 @@ nav{
     line-height: 2.5;
 }
 
-.footer {
+.bas {
     background: #f2f2f2;
     color: #616161;
     font-size: 12px;    
 }    
   
-  .footer-inner {
+  .bas-inner {
     max-width: 1100px;
     width: 90%;
     margin: auto;
   }
 
-  .footer ul {
+  .bas ul {
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .footer li {
+  .bas li {
     margin-right: 30px;
     margin-bottom: 20px;    
   }
 
-  .footer-inner ul li a:first-child{
+  .bas-inner ul li a:first-child{
       color: blue;
   }
