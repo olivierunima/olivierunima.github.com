@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+:root {
+  --primary-color: #f60f20;
+  --secondary-color: #1b206e;
+}
+
+/* BASE STYLES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+}
+
+.container {
+    max-width: 1100px;
+    width: 90%;    
+    margin: auto;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 20px 0;
+    font-size: 1.2rem;
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.menu ul {
+    display: flex;    
+}
+
+
+.menu ul li{
+    padding-right: 50px;
+}
+
+.menu ul li a{
+    padding-bottom: 2px;
+}
+
+
+
+.showcase {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    align-items: center;
+    background: url('../img/logoEurope.svg') no-repeat right center;
+}
+
+.droite {
+    height: 150px;
+    margin-left: 50px;
+}
+
+.droite img{
+    height: 50px;
+}
+
+.droite h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    font-weight: lighter;
+
+}
+
+section.description {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.description h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.description p {
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.description-inner {
+    width: 90%;
+    margin: auto;
+    
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;    
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 0 10px;   
+}
+
+.card1, .card2, .card3 {
+    border: teal solid 5px;
+    border-radius: 25px;
+}
+
+.card img {
+    width: 100%;
+    height: 100px;
+}
+
+.card h3 {
+    padding-top: 5px;
+}
+
+.card p {
+    padding: 10px;
+    text-align: left;
+}
+
+.manoucherie {
+    padding-top: 100px;
+    border-bottom: rgba(156, 46, 7, 0.6) solid 2px;
+    width: 30%;
+    margin: auto
+}
+
+.stats {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 20px
+    width: 60%
+    margin: auto;
+    text-align: center;    
+}
+
+.stat h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: teal;
+}
+
+.stat p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #262626;
+}
+
+.stat img {
+    height: 70px;
+    width: auto;
+}
+
+footer {
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.partners img {
+    width: 900px;
+    height: auto;
+    margin: auto;
+}
